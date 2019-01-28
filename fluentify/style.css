@@ -1,0 +1,127 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+  background-color: #0d325a;
+}
+
+.container{
+  width: 70vw;
+  margin: auto;
+}
+
+.navbar{
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+}
+
+.navbar-left{
+  float: left;
+}
+
+.navbar-right{
+  float: right;
+}
+
+.ch0{
+  color: white;
+  font-size: 12px;
+
+
+}
+
+section.blue{
+  background-color: #0d325a;
+}
+
+section.white{
+  background-color: #ffffff;
+}
+
+section.grey{
+  background-color: #f9f9f9;
+}
+
+.mt-20{
+  margin-top: 200px;
+}
+
+
+.container > .sectiontwo{
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+
+}
+
+.sectiontwo h1{
+  padding: 10px;
+}
+
+.container > .sectionone{
+  width: 50%;
+  color: white;
+  height: 400px;
+  font-size: 30px;
+}
+
+.book img{
+  width: 980px;
+  height: 415px;
+}
+
+
+.left, .center, .right{
+  float: left;
+  width: 33.3333%;
+}
+
+#why-product img{
+  width: 200px;
+  height: 200px;
+
+
+}
+
+#why-product h1{
+  color: forestgreen;
+  text-align: center;
+  font-size: 25px;
+}
+
+#why-product h3{
+  color: #cecece;
+  text-align: center;
+  font-size: 120x;
+}
+
+
+#test-product img{
+  width: 400px;
+
+}
+
+#test-product{
+  text-align: center;
+}
+
+.half{
+  float: left;
+  width: 50%;
+}
+
+
+.row:after{
+  clear: both;
+  content: '';
+  display: table;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
